@@ -1,0 +1,9 @@
+div{
+    height: 500px;
+    width: 300px;
+    background-color: fuchsia;
+    background-image: url("https://cdn-icons-png.flaticon.com/512/599/599516.png"), url("https://mir-oboev.ua/image/cache/catalog/oboi/G23101-1000x1000.jpg");
+    background-size: 30px, 100px ;
+    background-repeat: no-repeat, repeat;
+    background-position: 60px 40px, ;
+}
