@@ -1,0 +1,42 @@
+/* одиниця вимірювання % - це відносна одиниця яка рахується від розміру батька */
+.box{
+    outline: solid red;
+    max-width: 300px;
+}
+.text{
+    width: 50%;
+}
+.test{
+    outline: solid green;
+    font-size: 24px;
+}
+.info{
+    font-size: 85% ; /
+    /* 85% - це порахується як font-size батька, тобто 24 пікселі 
+    * 85% =20,4 пікселі */
+}
+.title{
+    font-size: 110%;
+    /* 110% - це порахується як font-size батька, тобто 24 пікселі
+     * 110% = 26,4 пікселі */
+}
+/* одиниця вимірювання em - відносна одиниця яка рахується від розміру font-size батька */
+.box2{
+    outline: solid yellow;
+    font-size: 16px;
+}
+.box3{
+    width: 25em;  
+    /* 25 em порахуються як 25 * font-size батька, тобто 25 * 16 = 400 px  */
+    height: 15px;
+    background-color: blue;
+}
+/* одиниця вимірювання rem це відносна одиниця яка рахується від розміру font-size тегу html*/
+ html{
+    font-size: 20px;
+ }
+ .box4{
+    background-color: brown;
+    height: 15px;
+    width: 25rem;
+ }
