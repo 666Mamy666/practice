@@ -1,0 +1,15 @@
+.btn{
+    background-color: aqua;
+    color: crimson;
+    padding: 70px 50px;
+    border-radius: 4px;
+    display: block;
+    transition-property: background-color, box-shadow ;
+    transition-duration: 2000ms;
+    transition-timing-function: cubic-bezier(0,1.09,1,-0.93);
+}
+.btn:hover{
+    background-color: darkgreen;
+    color: darkslateblue;
+    box-shadow: 15px 20px 15px 5px violet;
+}
